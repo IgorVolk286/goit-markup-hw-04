@@ -34,7 +34,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 .section {
   padding-top: 120px;
@@ -318,6 +318,7 @@ img {
 
 .social-list-item {
 }
+
 .social-list-link {
   display: flex;
   width: 40px;
@@ -328,14 +329,16 @@ img {
   justify-content: center;
   color: #f4f4fd;
 }
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--color-hover--);
-}
+
 .social-list-icon {
   width: 16px;
   height: 16px;
   fill: currentColor;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--color-hover--);
 }
 
 /*  custumers         */
@@ -367,12 +370,14 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
+
 .custumer-item-link {
+  color: #8e8f99;
 }
 .icon-customers {
   width: 104px;
   height: 56px;
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 .customers-item:hover,
@@ -437,19 +442,18 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #ffffff;
-  opacity: 0.1;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f4f4fd;
 }
 
 .social-icon-footer {
   width: 24px;
   height: 24px;
-  fill: #f4f4fd;
-  /* opacity: 1; */
+  fill: currentColor;
 }
+.social-media-link:hover,
 .social-media-link:hover {
   background-color: #31d0aa;
-  opacity: 1;
 }
 
 /* -----------страница портфолио------------ */
