@@ -218,6 +218,21 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color--);
 }
+.box-icon {
+  display: flex;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  /* outline: 1px solid red; */
+  background: #f4f4fd;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.icon-box {
+  width: 60px;
+  height: 64px;
+}
 
 /* наши работы */
 .work {
@@ -246,7 +261,9 @@ img {
 /* наша команда */
 
 .team {
-  background: #f4f4fd;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -309,6 +326,7 @@ img {
   background-color: #4d5ae5;
   align-items: center;
   justify-content: center;
+  color: #f4f4fd;
 }
 .social-list-link:hover,
 .social-list-link:focus {
@@ -317,6 +335,7 @@ img {
 .social-list-icon {
   width: 16px;
   height: 16px;
+  fill: currentColor;
 }
 
 /*  custumers         */
@@ -353,13 +372,16 @@ img {
 .icon-customers {
   width: 104px;
   height: 56px;
+  fill: #8e8f99;
 }
+
 .customers-item:hover,
 .customers-item:focus {
   border: 1px solid var(--color-hover--);
 }
 .icon-customers:hover,
 .icon-customers:focus {
+  fill: #4d5ae5;
 }
 
 /* --футер--- */
@@ -415,15 +437,19 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #f4f4fd;
+  background-color: #ffffff;
+  opacity: 0.1;
 }
 
 .social-icon-footer {
   width: 24px;
   height: 24px;
+  fill: #f4f4fd;
+  /* opacity: 1; */
 }
 .social-media-link:hover {
   background-color: #31d0aa;
+  opacity: 1;
 }
 
 /* -----------страница портфолио------------ */
