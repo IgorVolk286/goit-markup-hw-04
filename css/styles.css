@@ -42,13 +42,11 @@ img {
 }
 /* ----------хедер------------- */
 .header {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container-header {
   display: flex;
@@ -261,7 +259,7 @@ img {
 /* наша команда */
 
 .team {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
   background-color: #f4f4fd;
 }
@@ -371,9 +369,10 @@ img {
   border-radius: 4px;
 }
 
-.custumer-item-link {
+.custumers-item-link {
   color: #8e8f99;
 }
+
 .icon-customers {
   width: 104px;
   height: 56px;
@@ -384,15 +383,20 @@ img {
 .customers-item:focus {
   border: 1px solid var(--color-hover--);
 }
+
 .icon-customers:hover,
-.icon-customers:focus {
+.icon-custumers:focus {
+  fill: #4d5ae5;
+}
+.custumers-item-link:hover,
+.custumers-item-link:focus .icon-customers {
   fill: #4d5ae5;
 }
 
 /* --футер--- */
 
 .footer {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
   background-color: #2e2f42;
   padding-top: 100px;
@@ -452,7 +456,7 @@ img {
   fill: currentColor;
 }
 .social-media-link:hover,
-.social-media-link:hover {
+.social-media-link:focus {
   background-color: #31d0aa;
 }
 
@@ -461,13 +465,14 @@ img {
 /* фильтр кнопки */
 .buttons-filter {
   display: flex;
+  margin-bottom: 72px;
 }
 .filter-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding-bottom: 72px;
+
   margin: 0 auto;
 }
 .filter-item {
@@ -483,6 +488,7 @@ img {
   color: #4d5ae5;
   background: #f4f4fd;
   border: 1px solid #565a77;
+  border: transparent;
   border-radius: 4px;
   cursor: pointer;
   padding: 12px 24px;
