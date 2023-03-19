@@ -232,7 +232,10 @@ img {
   height: 64px;
 }
 
+
 /* наши работы */
+
+
 .work {
   padding-bottom: 120px;
 }
@@ -338,6 +341,7 @@ img {
 .social-list-link:focus {
   background-color: var(--color-hover--);
 }
+
 
 /*  custumers         */
 .customers {
